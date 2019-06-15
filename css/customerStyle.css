@@ -1,0 +1,311 @@
+/*body main-raised*/
+.main-raised{
+    box-shadow: none;
+}
+/*===========general css=============*/
+a{
+    color: #444;
+}
+.btn{
+    outline: none;
+}
+/*===========navbar css==========*/
+.navbar-brand{
+    font-size: 1.7rem !important;
+    font-weight: bold;
+}
+.navbar-brand .orange{
+    color:#f44336;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-weight:bold;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#f44336;
+    cursor:pointer;
+    font-weight:bold;
+}
+/*==========page-header css==========*/
+.page-header .orange{
+    color: #f44336;
+}
+.introWelcome{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+}
+/*remove padding from section div*/
+
+.section1{
+    padding-bottom: 0 !important;
+}
+.section2{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.sectionContact{
+    padding-top: 0 !important;
+}
+/*=================services====================================*/
+.serviceInfo{
+    padding: 0 0 30px;
+}
+.serviceTitle{
+    font-size: 2rem;
+}
+.icon{
+    color: #000;
+}
+.icon:hover{
+    color: #f44336;
+    cursor: pointer;
+}
+.info p {
+    color: #999;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+.btn-more{
+    background: #ea4136 !important;
+}
+.features .orange{
+    color: #f44336 !important;
+}
+/*=============step-process=====*/
+
+.step-processes h3{
+    font-weight: bold;
+}
+.step-process{
+    margin-top: 20px;
+}
+.fa-check-square{
+    color: #f44336;
+}
+.vision, .comitment{
+    font-size: 1.2rem;
+}
+.black h3{
+    margin-top: 0;
+}
+.red h3{
+    margin-top:0;
+}
+/*======about us css========*/
+a.richfield{
+    color:#f44336;
+}
+.intro{
+    font-size: 1.3rem;
+    line-height: 1.7em;
+}
+/*====================contact=====================*/
+.contact
+{
+    margin-top:5em;
+}
+.contact-form
+{
+    margin-top:2em;
+}
+.contact-details
+{
+    margin-top:40px;
+}
+.section-bg 
+{
+	background:#fff;
+	padding:25px 15px;
+	margin-bottom:15px;
+}
+/**/
+/*=============== Media Queries ====================*/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    body{
+        max-width: 100%;
+        background: #ea4136;
+        font-size: 1.3rem;
+    }
+    .introMessage{
+        font-weight: bold;
+    }
+    .copyright{
+        color:#fff;
+    }
+    .copyright a{
+        color: #fff;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    body{
+        max-width: 100%;
+        background: #ea4136;
+        font-size: 1.3rem;
+    }
+    .introMessage{
+        font-weight: bold;
+    }
+    .copyright{
+        color:#fff;
+    }
+    .copyright a{
+        color: #fff;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+   body{
+       width: 100%;
+   }
+   .navbar.navbar-transparent{
+       background: #000 !important;
+   }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    body{
+        width: 100%;
+    }
+    .welcomeTitle{
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 1.5em;
+    }
+    .serviceTitle {
+        font-size: 1.3rem;
+    }
+    .info p {
+        color: #999;
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .navbar.navbar-transparent{
+        background: #000 !important;
+    }
+    .welcomeTitle{
+        font-size: 2.5rem;
+        padding-top:70px;
+    }
+    .welcomeText{
+        font-size: 1.4rem;
+    }
+    .introWelcome {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        letter-spacing: normal;
+        font-weight: 400;
+    }
+    p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.8;
+        letter-spacing: normal;
+    }
+    .serviceTitle{
+        font-size: 2rem;
+        line-height: 1.7em;
+    }
+    .btn.btn-round {
+        font-size: 1.2rem;
+    }
+    .info .icon>i {
+        font-size: 7rem;
+    }
+    .step-processes h3 {
+        font-size: 2rem;
+    }
+    .process-list{
+        font-size: 1.4rem;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar.navbar-transparent{
+        background: #000 !important;
+    }
+    .welcomeTitle{
+        font-size: 2.5rem;
+        padding-top:70px;
+    }
+    .welcomeText{
+        font-size: 1.4rem;
+    }
+    .introWelcome {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        letter-spacing: normal;
+        font-weight: 400;
+    }
+    p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.8;
+        letter-spacing: normal;
+    }
+    .serviceTitle{
+        font-size: 2rem;
+        line-height: 1.7em;
+    }
+    .btn.btn-round {
+        font-size: 1.2rem;
+    }
+    .info .icon>i {
+        font-size: 7rem;
+    }
+    .step-processes h3 {
+        font-size: 2rem;
+    }
+    .process-list{
+        font-size: 1.4rem;
+    }
+    
+  }

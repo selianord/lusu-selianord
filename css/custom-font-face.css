@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Whitney-Light-Bas';
+    src: url('../font-face/Whitney/Whitney-Light-Bas.otf');
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3,
+h4,
+h5,
+h6 
+{
+    font-family: 'Whitney-Light-Bas';
+}
+
